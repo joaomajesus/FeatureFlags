@@ -1,0 +1,45 @@
+http://localhost:18687/FeatureFlags
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureA: false
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureB: false
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureC: false
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureA: true
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureB: true
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureC: true
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureA: true
+X-Flag-FeatureB: true
+X-Flag-FeatureC: true
+
+###
+
+http://localhost:18687/FeatureFlags
+X-Flag-FeatureA: false
+X-Flag-FeatureB: false
+X-Flag-FeatureC: false

@@ -1,0 +1,61 @@
+http://localhost:37652/FeatureFlags
+
+###
+
+http://localhost:37652/FeatureFlags/WithHeaderPropagation
+
+###
+
+http://localhost:37652/FeatureFlags/WithHeaderPropagation
+X-Flag-FeatureA: false
+X-Flag-FeatureB: true
+X-Flag-FeatureC: false
+
+###
+
+http://localhost:37652/FeatureFlags/WithoutHeaderPropagation
+X-Flag-FeatureA: false
+X-Flag-FeatureB: true
+X-Flag-FeatureC: false
+
+###
+
+http://localhost:37652/FeatureFlags/WithHeaderPropagation
+X-Flag-FeatureA: true
+X-Flag-FeatureB: false
+X-Flag-FeatureC: true
+
+###
+
+http://localhost:37652/FeatureFlags/WithoutHeaderPropagation
+X-Flag-FeatureA: true
+X-Flag-FeatureB: false
+X-Flag-FeatureC: true
+
+###
+
+http://localhost:37652/FeatureFlags/WithHeaderPropagation
+X-Flag-FeatureA: true
+X-Flag-FeatureB: true
+X-Flag-FeatureC: true
+
+###
+
+http://localhost:37652/FeatureFlags/WithoutHeaderPropagation
+X-Flag-FeatureA: true
+X-Flag-FeatureB: true
+X-Flag-FeatureC: true
+
+###
+
+http://localhost:37652/FeatureFlags/WithHeaderPropagation
+X-Flag-FeatureA: false
+X-Flag-FeatureB: false
+X-Flag-FeatureC: false
+
+###
+
+http://localhost:37652/FeatureFlags/WithoutHeaderPropagation
+X-Flag-FeatureA: false
+X-Flag-FeatureB: false
+X-Flag-FeatureC: false
