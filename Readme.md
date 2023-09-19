@@ -29,7 +29,7 @@ Implement feature toggling per request, on ASP.NET Core API projects, using HTTP
 - [ ] Use JWT Scopes to authorize the toggling of a Feature Flag with by a HTTP Header.
 - [ ] Cache the resulting state of the Feature Flag for a specific request (the feature flag could be used more than once throughout the application).
 ## Open Questions
-- Will ESP be compatible with Microsoft Feature Management?
+-
 ## Pros & Cons
 ### Feature Filter
 #### Pros
